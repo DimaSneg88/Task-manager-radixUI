@@ -1,0 +1,102 @@
+/* html {
+  font-family: sans-serif;
+  font-size: 14px;
+}
+
+table {
+  border: 1px solid lightgray;
+}
+
+tbody {
+  border-bottom: 1px solid lightgray;
+}
+
+th {
+  border-bottom: 1px solid lightgray;
+  border-right: 1px solid lightgray;
+  padding: 2px 4px;
+}
+
+tfoot {
+  color: gray;
+}
+
+tfoot th {
+  font-weight: normal;
+} */
+.avatar {
+  display: flex;
+  justify-content: right;
+  margin: 20px 5px 20px;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-container {
+  border: 1px solid grey;
+  border-radius: 5px;
+  overflow: hidden;
+  margin: 30px 0px;
+}
+
+tr {
+  border-bottom: 1px solid grey;
+}
+
+tr:last-child {
+  border-bottom: none;
+}
+
+.thead {
+  border-bottom: 1px solid grey;
+  text-align: left;
+}
+
+.button {
+  border: 1px solid grey;
+  border-radius: 5px;
+}
+
+.button-head {
+  display: flex;
+  right: 0px;
+}
+
+.table-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.table-footer-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
+.table-footer-rows {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.table-footer-btns {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.up-panel {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+
+.panel-button {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
